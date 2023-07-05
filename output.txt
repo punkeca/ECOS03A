@@ -2,210 +2,148 @@
 
 ----> Test your Scheduler:
   1- PriorityScheduler       vs        2- Multi-queues Scheduler
-
+  User choice: 
 
 
 * * * Running cooperative priority based scheduler: * * *
 
 ----------------------------------- Process Pool --------------------------------------
 -> Process Name: The Witcher 3 - Period: 1 - Priority: 3 
- -> Process Name: opera - Period: 3 - Priority: 6 
- -> Process Name: eclipse - Period: 4 - Priority: 6 
+ -> Process Name: opera - Period: 6 - Priority: 6 
+ -> Process Name: eclipse - Period: 1 - Priority: 6 
  -> Process Name: Visual Studio Code - Period: 1 - Priority: 2 
- -> Process Name: firefox - Period: 3 - Priority: 7 
- -> Process Name: steam - Period: 2 - Priority: 8 
- -> Process Name: spotify - Period: 3 - Priority: 8 
+ -> Process Name: firefox - Period: 6 - Priority: 2 
+ -> Process Name: steam - Period: 2 - Priority: 3 
+ -> Process Name: spotify - Period: 3 - Priority: 2 
  -> Process Name: discord - Period: 1 - Priority: 2 
  -> Process Name: photoshop - Period: 2 - Priority: 6 
- -> Process Name: illustrator - Period: 5 - Priority: 7 
+ -> Process Name: illustrator - Period: 6 - Priority: 7 
  ---------------------------------------------------------------------------------------
 
-Hello! It's me... spotify! 
+Hello! It's me... illustrator! 
  
 ----------------------------------- Process Pool --------------------------------------
--> Process Name: opera - Period: 3 - Priority: 6 
- -> Process Name: eclipse - Period: 4 - Priority: 6 
+-> Process Name: opera - Period: 6 - Priority: 6 
+ -> Process Name: eclipse - Period: 1 - Priority: 6 
  -> Process Name: Visual Studio Code - Period: 1 - Priority: 2 
- -> Process Name: firefox - Period: 3 - Priority: 7 
- -> Process Name: steam - Period: 2 - Priority: 8 
- -> Process Name: The Witcher 3 - Period: 1 - Priority: 3 
+ -> Process Name: firefox - Period: 6 - Priority: 2 
+ -> Process Name: steam - Period: 2 - Priority: 3 
+ -> Process Name: spotify - Period: 3 - Priority: 2 
  -> Process Name: discord - Period: 1 - Priority: 2 
  -> Process Name: photoshop - Period: 2 - Priority: 6 
- -> Process Name: illustrator - Period: 5 - Priority: 7 
+ -> Process Name: The Witcher 3 - Period: 1 - Priority: 3 
  ---------------------------------------------------------------------------------------
 
-Hello! It's me... steam! 
+Hello! It's me... photoshop! 
  
 ----------------------------------- Process Pool --------------------------------------
--> Process Name: eclipse - Period: 4 - Priority: 6 
+-> Process Name: eclipse - Period: 1 - Priority: 6 
  -> Process Name: Visual Studio Code - Period: 1 - Priority: 2 
- -> Process Name: firefox - Period: 3 - Priority: 7 
- -> Process Name: opera - Period: 3 - Priority: 6 
- -> Process Name: The Witcher 3 - Period: 1 - Priority: 3 
+ -> Process Name: firefox - Period: 6 - Priority: 2 
+ -> Process Name: steam - Period: 2 - Priority: 3 
+ -> Process Name: spotify - Period: 3 - Priority: 2 
  -> Process Name: discord - Period: 1 - Priority: 2 
- -> Process Name: photoshop - Period: 2 - Priority: 6 
- -> Process Name: illustrator - Period: 5 - Priority: 7 
- -> Process Name: steam - Period: 1 - Priority: 8 
+ -> Process Name: opera - Period: 6 - Priority: 6 
+ -> Process Name: The Witcher 3 - Period: 1 - Priority: 3 
+ -> Process Name: photoshop - Period: 1 - Priority: 6 
  ---------------------------------------------------------------------------------------
 
-Hello! It's me... steam! 
+Hello! It's me... photoshop! 
  
 ----------------------------------- Process Pool --------------------------------------
 -> Process Name: Visual Studio Code - Period: 1 - Priority: 2 
- -> Process Name: firefox - Period: 3 - Priority: 7 
- -> Process Name: opera - Period: 3 - Priority: 6 
- -> Process Name: The Witcher 3 - Period: 1 - Priority: 3 
+ -> Process Name: firefox - Period: 6 - Priority: 2 
+ -> Process Name: steam - Period: 2 - Priority: 3 
+ -> Process Name: spotify - Period: 3 - Priority: 2 
  -> Process Name: discord - Period: 1 - Priority: 2 
- -> Process Name: photoshop - Period: 2 - Priority: 6 
- -> Process Name: illustrator - Period: 5 - Priority: 7 
- -> Process Name: eclipse - Period: 4 - Priority: 6 
- -> Process Name: steam - Period: 0 - Priority: 8 
+ -> Process Name: opera - Period: 6 - Priority: 6 
+ -> Process Name: The Witcher 3 - Period: 1 - Priority: 3 
+ -> Process Name: eclipse - Period: 1 - Priority: 6 
+ -> Process Name: photoshop - Period: 0 - Priority: 6 
  ---------------------------------------------------------------------------------------
 
-Hello! It's me... steam! 
+Hello! It's me... photoshop! 
  
 ----------------------------------- Process Pool --------------------------------------
--> Process Name: firefox - Period: 3 - Priority: 7 
- -> Process Name: opera - Period: 3 - Priority: 6 
- -> Process Name: The Witcher 3 - Period: 1 - Priority: 3 
+-> Process Name: firefox - Period: 6 - Priority: 2 
+ -> Process Name: steam - Period: 2 - Priority: 3 
+ -> Process Name: spotify - Period: 3 - Priority: 2 
  -> Process Name: discord - Period: 1 - Priority: 2 
- -> Process Name: photoshop - Period: 2 - Priority: 6 
- -> Process Name: illustrator - Period: 5 - Priority: 7 
- -> Process Name: eclipse - Period: 4 - Priority: 6 
+ -> Process Name: opera - Period: 6 - Priority: 6 
+ -> Process Name: The Witcher 3 - Period: 1 - Priority: 3 
+ -> Process Name: eclipse - Period: 1 - Priority: 6 
  -> Process Name: Visual Studio Code - Period: 1 - Priority: 2 
  ---------------------------------------------------------------------------------------
 
-Hello! It's me... illustrator! 
+Hello! It's me... eclipse! 
  
 ----------------------------------- Process Pool --------------------------------------
--> Process Name: opera - Period: 3 - Priority: 6 
- -> Process Name: The Witcher 3 - Period: 1 - Priority: 3 
+-> Process Name: steam - Period: 2 - Priority: 3 
+ -> Process Name: spotify - Period: 3 - Priority: 2 
  -> Process Name: discord - Period: 1 - Priority: 2 
- -> Process Name: photoshop - Period: 2 - Priority: 6 
- -> Process Name: firefox - Period: 3 - Priority: 7 
- -> Process Name: eclipse - Period: 4 - Priority: 6 
- -> Process Name: Visual Studio Code - Period: 1 - Priority: 2 
- -> Process Name: illustrator - Period: 4 - Priority: 7 
- ---------------------------------------------------------------------------------------
-
-Hello! It's me... illustrator! 
- 
------------------------------------ Process Pool --------------------------------------
--> Process Name: The Witcher 3 - Period: 1 - Priority: 3 
- -> Process Name: discord - Period: 1 - Priority: 2 
- -> Process Name: photoshop - Period: 2 - Priority: 6 
- -> Process Name: firefox - Period: 3 - Priority: 7 
- -> Process Name: eclipse - Period: 4 - Priority: 6 
- -> Process Name: Visual Studio Code - Period: 1 - Priority: 2 
- -> Process Name: opera - Period: 3 - Priority: 6 
- -> Process Name: illustrator - Period: 3 - Priority: 7 
- ---------------------------------------------------------------------------------------
-
-Hello! It's me... illustrator! 
- 
------------------------------------ Process Pool --------------------------------------
--> Process Name: discord - Period: 1 - Priority: 2 
- -> Process Name: photoshop - Period: 2 - Priority: 6 
- -> Process Name: firefox - Period: 3 - Priority: 7 
- -> Process Name: eclipse - Period: 4 - Priority: 6 
- -> Process Name: Visual Studio Code - Period: 1 - Priority: 2 
- -> Process Name: opera - Period: 3 - Priority: 6 
+ -> Process Name: opera - Period: 6 - Priority: 6 
  -> Process Name: The Witcher 3 - Period: 1 - Priority: 3 
- -> Process Name: illustrator - Period: 2 - Priority: 7 
- ---------------------------------------------------------------------------------------
-
-Hello! It's me... illustrator! 
- 
------------------------------------ Process Pool --------------------------------------
--> Process Name: photoshop - Period: 2 - Priority: 6 
- -> Process Name: firefox - Period: 3 - Priority: 7 
- -> Process Name: eclipse - Period: 4 - Priority: 6 
+ -> Process Name: firefox - Period: 6 - Priority: 2 
  -> Process Name: Visual Studio Code - Period: 1 - Priority: 2 
- -> Process Name: opera - Period: 3 - Priority: 6 
- -> Process Name: The Witcher 3 - Period: 1 - Priority: 3 
- -> Process Name: discord - Period: 1 - Priority: 2 
- -> Process Name: illustrator - Period: 1 - Priority: 7 
+ -> Process Name: eclipse - Period: 0 - Priority: 6 
  ---------------------------------------------------------------------------------------
 
-Hello! It's me... illustrator! 
+Hello! It's me... eclipse! 
  
 ----------------------------------- Process Pool --------------------------------------
--> Process Name: firefox - Period: 3 - Priority: 7 
- -> Process Name: eclipse - Period: 4 - Priority: 6 
+-> Process Name: spotify - Period: 3 - Priority: 2 
+ -> Process Name: discord - Period: 1 - Priority: 2 
+ -> Process Name: opera - Period: 6 - Priority: 6 
+ -> Process Name: The Witcher 3 - Period: 1 - Priority: 3 
+ -> Process Name: firefox - Period: 6 - Priority: 2 
  -> Process Name: Visual Studio Code - Period: 1 - Priority: 2 
- -> Process Name: opera - Period: 3 - Priority: 6 
- -> Process Name: The Witcher 3 - Period: 1 - Priority: 3 
- -> Process Name: discord - Period: 1 - Priority: 2 
- -> Process Name: photoshop - Period: 2 - Priority: 6 
- -> Process Name: illustrator - Period: 0 - Priority: 7 
- ---------------------------------------------------------------------------------------
-
-Hello! It's me... illustrator! 
- 
------------------------------------ Process Pool --------------------------------------
--> Process Name: eclipse - Period: 4 - Priority: 6 
- -> Process Name: Visual Studio Code - Period: 1 - Priority: 2 
- -> Process Name: opera - Period: 3 - Priority: 6 
- -> Process Name: The Witcher 3 - Period: 1 - Priority: 3 
- -> Process Name: discord - Period: 1 - Priority: 2 
- -> Process Name: photoshop - Period: 2 - Priority: 6 
- -> Process Name: firefox - Period: 3 - Priority: 7 
- ---------------------------------------------------------------------------------------
-
-Hello! It's me... firefox! 
- 
------------------------------------ Process Pool --------------------------------------
--> Process Name: Visual Studio Code - Period: 1 - Priority: 2 
- -> Process Name: opera - Period: 3 - Priority: 6 
- -> Process Name: The Witcher 3 - Period: 1 - Priority: 3 
- -> Process Name: discord - Period: 1 - Priority: 2 
- -> Process Name: photoshop - Period: 2 - Priority: 6 
- -> Process Name: eclipse - Period: 4 - Priority: 6 
- -> Process Name: firefox - Period: 2 - Priority: 7 
- ---------------------------------------------------------------------------------------
-
-Hello! It's me... firefox! 
- 
------------------------------------ Process Pool --------------------------------------
--> Process Name: opera - Period: 3 - Priority: 6 
- -> Process Name: The Witcher 3 - Period: 1 - Priority: 3 
- -> Process Name: discord - Period: 1 - Priority: 2 
- -> Process Name: photoshop - Period: 2 - Priority: 6 
- -> Process Name: eclipse - Period: 4 - Priority: 6 
- -> Process Name: Visual Studio Code - Period: 1 - Priority: 2 
- -> Process Name: firefox - Period: 1 - Priority: 7 
- ---------------------------------------------------------------------------------------
-
-Hello! It's me... firefox! 
- 
------------------------------------ Process Pool --------------------------------------
--> Process Name: The Witcher 3 - Period: 1 - Priority: 3 
- -> Process Name: discord - Period: 1 - Priority: 2 
- -> Process Name: photoshop - Period: 2 - Priority: 6 
- -> Process Name: eclipse - Period: 4 - Priority: 6 
- -> Process Name: Visual Studio Code - Period: 1 - Priority: 2 
- -> Process Name: opera - Period: 3 - Priority: 6 
- -> Process Name: firefox - Period: 0 - Priority: 7 
- ---------------------------------------------------------------------------------------
-
-Hello! It's me... firefox! 
- 
------------------------------------ Process Pool --------------------------------------
--> Process Name: discord - Period: 1 - Priority: 2 
- -> Process Name: photoshop - Period: 2 - Priority: 6 
- -> Process Name: eclipse - Period: 4 - Priority: 6 
- -> Process Name: Visual Studio Code - Period: 1 - Priority: 2 
- -> Process Name: opera - Period: 3 - Priority: 6 
- -> Process Name: The Witcher 3 - Period: 1 - Priority: 3 
+ -> Process Name: steam - Period: 2 - Priority: 3 
  ---------------------------------------------------------------------------------------
 
 Hello! It's me... opera! 
  
 ----------------------------------- Process Pool --------------------------------------
--> Process Name: photoshop - Period: 2 - Priority: 6 
- -> Process Name: eclipse - Period: 4 - Priority: 6 
+-> Process Name: discord - Period: 1 - Priority: 2 
+ -> Process Name: spotify - Period: 3 - Priority: 2 
+ -> Process Name: The Witcher 3 - Period: 1 - Priority: 3 
+ -> Process Name: firefox - Period: 6 - Priority: 2 
  -> Process Name: Visual Studio Code - Period: 1 - Priority: 2 
+ -> Process Name: steam - Period: 2 - Priority: 3 
+ -> Process Name: opera - Period: 5 - Priority: 6 
+ ---------------------------------------------------------------------------------------
+
+Hello! It's me... opera! 
+ 
+----------------------------------- Process Pool --------------------------------------
+-> Process Name: spotify - Period: 3 - Priority: 2 
+ -> Process Name: The Witcher 3 - Period: 1 - Priority: 3 
+ -> Process Name: firefox - Period: 6 - Priority: 2 
+ -> Process Name: Visual Studio Code - Period: 1 - Priority: 2 
+ -> Process Name: steam - Period: 2 - Priority: 3 
  -> Process Name: discord - Period: 1 - Priority: 2 
+ -> Process Name: opera - Period: 4 - Priority: 6 
+ ---------------------------------------------------------------------------------------
+
+Hello! It's me... opera! 
+ 
+----------------------------------- Process Pool --------------------------------------
+-> Process Name: The Witcher 3 - Period: 1 - Priority: 3 
+ -> Process Name: firefox - Period: 6 - Priority: 2 
+ -> Process Name: Visual Studio Code - Period: 1 - Priority: 2 
+ -> Process Name: steam - Period: 2 - Priority: 3 
+ -> Process Name: discord - Period: 1 - Priority: 2 
+ -> Process Name: spotify - Period: 3 - Priority: 2 
+ -> Process Name: opera - Period: 3 - Priority: 6 
+ ---------------------------------------------------------------------------------------
+
+Hello! It's me... opera! 
+ 
+----------------------------------- Process Pool --------------------------------------
+-> Process Name: firefox - Period: 6 - Priority: 2 
+ -> Process Name: Visual Studio Code - Period: 1 - Priority: 2 
+ -> Process Name: steam - Period: 2 - Priority: 3 
+ -> Process Name: discord - Period: 1 - Priority: 2 
+ -> Process Name: spotify - Period: 3 - Priority: 2 
  -> Process Name: The Witcher 3 - Period: 1 - Priority: 3 
  -> Process Name: opera - Period: 2 - Priority: 6 
  ---------------------------------------------------------------------------------------
@@ -213,22 +151,24 @@ Hello! It's me... opera!
 Hello! It's me... opera! 
  
 ----------------------------------- Process Pool --------------------------------------
--> Process Name: eclipse - Period: 4 - Priority: 6 
- -> Process Name: Visual Studio Code - Period: 1 - Priority: 2 
+-> Process Name: Visual Studio Code - Period: 1 - Priority: 2 
+ -> Process Name: steam - Period: 2 - Priority: 3 
  -> Process Name: discord - Period: 1 - Priority: 2 
+ -> Process Name: spotify - Period: 3 - Priority: 2 
  -> Process Name: The Witcher 3 - Period: 1 - Priority: 3 
- -> Process Name: photoshop - Period: 2 - Priority: 6 
+ -> Process Name: firefox - Period: 6 - Priority: 2 
  -> Process Name: opera - Period: 1 - Priority: 6 
  ---------------------------------------------------------------------------------------
 
 Hello! It's me... opera! 
  
 ----------------------------------- Process Pool --------------------------------------
--> Process Name: Visual Studio Code - Period: 1 - Priority: 2 
+-> Process Name: steam - Period: 2 - Priority: 3 
  -> Process Name: discord - Period: 1 - Priority: 2 
+ -> Process Name: spotify - Period: 3 - Priority: 2 
  -> Process Name: The Witcher 3 - Period: 1 - Priority: 3 
- -> Process Name: photoshop - Period: 2 - Priority: 6 
- -> Process Name: eclipse - Period: 4 - Priority: 6 
+ -> Process Name: firefox - Period: 6 - Priority: 2 
+ -> Process Name: Visual Studio Code - Period: 1 - Priority: 2 
  -> Process Name: opera - Period: 0 - Priority: 6 
  ---------------------------------------------------------------------------------------
 
@@ -236,85 +176,43 @@ Hello! It's me... opera!
  
 ----------------------------------- Process Pool --------------------------------------
 -> Process Name: discord - Period: 1 - Priority: 2 
+ -> Process Name: spotify - Period: 3 - Priority: 2 
  -> Process Name: The Witcher 3 - Period: 1 - Priority: 3 
- -> Process Name: photoshop - Period: 2 - Priority: 6 
- -> Process Name: eclipse - Period: 4 - Priority: 6 
+ -> Process Name: firefox - Period: 6 - Priority: 2 
  -> Process Name: Visual Studio Code - Period: 1 - Priority: 2 
+ -> Process Name: steam - Period: 2 - Priority: 3 
  ---------------------------------------------------------------------------------------
 
-Hello! It's me... eclipse! 
+Hello! It's me... steam! 
+ 
+----------------------------------- Process Pool --------------------------------------
+-> Process Name: spotify - Period: 3 - Priority: 2 
+ -> Process Name: The Witcher 3 - Period: 1 - Priority: 3 
+ -> Process Name: firefox - Period: 6 - Priority: 2 
+ -> Process Name: Visual Studio Code - Period: 1 - Priority: 2 
+ -> Process Name: discord - Period: 1 - Priority: 2 
+ -> Process Name: steam - Period: 1 - Priority: 3 
+ ---------------------------------------------------------------------------------------
+
+Hello! It's me... steam! 
  
 ----------------------------------- Process Pool --------------------------------------
 -> Process Name: The Witcher 3 - Period: 1 - Priority: 3 
- -> Process Name: photoshop - Period: 2 - Priority: 6 
- -> Process Name: discord - Period: 1 - Priority: 2 
+ -> Process Name: firefox - Period: 6 - Priority: 2 
  -> Process Name: Visual Studio Code - Period: 1 - Priority: 2 
- -> Process Name: eclipse - Period: 3 - Priority: 6 
+ -> Process Name: discord - Period: 1 - Priority: 2 
+ -> Process Name: spotify - Period: 3 - Priority: 2 
+ -> Process Name: steam - Period: 0 - Priority: 3 
  ---------------------------------------------------------------------------------------
 
-Hello! It's me... eclipse! 
+Hello! It's me... steam! 
  
 ----------------------------------- Process Pool --------------------------------------
--> Process Name: photoshop - Period: 2 - Priority: 6 
- -> Process Name: discord - Period: 1 - Priority: 2 
+-> Process Name: firefox - Period: 6 - Priority: 2 
  -> Process Name: Visual Studio Code - Period: 1 - Priority: 2 
+ -> Process Name: discord - Period: 1 - Priority: 2 
+ -> Process Name: spotify - Period: 3 - Priority: 2 
  -> Process Name: The Witcher 3 - Period: 1 - Priority: 3 
- -> Process Name: eclipse - Period: 2 - Priority: 6 
- ---------------------------------------------------------------------------------------
-
-Hello! It's me... eclipse! 
- 
------------------------------------ Process Pool --------------------------------------
--> Process Name: discord - Period: 1 - Priority: 2 
- -> Process Name: Visual Studio Code - Period: 1 - Priority: 2 
- -> Process Name: The Witcher 3 - Period: 1 - Priority: 3 
- -> Process Name: photoshop - Period: 2 - Priority: 6 
- -> Process Name: eclipse - Period: 1 - Priority: 6 
- ---------------------------------------------------------------------------------------
-
-Hello! It's me... eclipse! 
- 
------------------------------------ Process Pool --------------------------------------
--> Process Name: Visual Studio Code - Period: 1 - Priority: 2 
- -> Process Name: The Witcher 3 - Period: 1 - Priority: 3 
- -> Process Name: photoshop - Period: 2 - Priority: 6 
- -> Process Name: discord - Period: 1 - Priority: 2 
- -> Process Name: eclipse - Period: 0 - Priority: 6 
- ---------------------------------------------------------------------------------------
-
-Hello! It's me... eclipse! 
- 
------------------------------------ Process Pool --------------------------------------
--> Process Name: The Witcher 3 - Period: 1 - Priority: 3 
- -> Process Name: photoshop - Period: 2 - Priority: 6 
- -> Process Name: discord - Period: 1 - Priority: 2 
- -> Process Name: Visual Studio Code - Period: 1 - Priority: 2 
- ---------------------------------------------------------------------------------------
-
-Hello! It's me... photoshop! 
- 
------------------------------------ Process Pool --------------------------------------
--> Process Name: The Witcher 3 - Period: 1 - Priority: 3 
- -> Process Name: discord - Period: 1 - Priority: 2 
- -> Process Name: Visual Studio Code - Period: 1 - Priority: 2 
- -> Process Name: photoshop - Period: 1 - Priority: 6 
- ---------------------------------------------------------------------------------------
-
-Hello! It's me... photoshop! 
- 
------------------------------------ Process Pool --------------------------------------
--> Process Name: discord - Period: 1 - Priority: 2 
- -> Process Name: Visual Studio Code - Period: 1 - Priority: 2 
- -> Process Name: The Witcher 3 - Period: 1 - Priority: 3 
- -> Process Name: photoshop - Period: 0 - Priority: 6 
- ---------------------------------------------------------------------------------------
-
-Hello! It's me... photoshop! 
- 
------------------------------------ Process Pool --------------------------------------
--> Process Name: Visual Studio Code - Period: 1 - Priority: 2 
- -> Process Name: The Witcher 3 - Period: 1 - Priority: 3 
- -> Process Name: discord - Period: 1 - Priority: 2 
  ---------------------------------------------------------------------------------------
 
 Hello! It's me... The Witcher 3! 
@@ -322,6 +220,8 @@ Hello! It's me... The Witcher 3!
 ----------------------------------- Process Pool --------------------------------------
 -> Process Name: Visual Studio Code - Period: 1 - Priority: 2 
  -> Process Name: discord - Period: 1 - Priority: 2 
+ -> Process Name: spotify - Period: 3 - Priority: 2 
+ -> Process Name: firefox - Period: 6 - Priority: 2 
  -> Process Name: The Witcher 3 - Period: 0 - Priority: 3 
  ---------------------------------------------------------------------------------------
 
@@ -329,29 +229,109 @@ Hello! It's me... The Witcher 3!
  
 ----------------------------------- Process Pool --------------------------------------
 -> Process Name: discord - Period: 1 - Priority: 2 
+ -> Process Name: spotify - Period: 3 - Priority: 2 
+ -> Process Name: firefox - Period: 6 - Priority: 2 
  -> Process Name: Visual Studio Code - Period: 1 - Priority: 2 
  ---------------------------------------------------------------------------------------
 
 Hello! It's me... Visual Studio Code! 
  
 ----------------------------------- Process Pool --------------------------------------
--> Process Name: discord - Period: 1 - Priority: 2 
+-> Process Name: spotify - Period: 3 - Priority: 2 
+ -> Process Name: firefox - Period: 6 - Priority: 2 
+ -> Process Name: discord - Period: 1 - Priority: 2 
  -> Process Name: Visual Studio Code - Period: 0 - Priority: 2 
  ---------------------------------------------------------------------------------------
 
 Hello! It's me... Visual Studio Code! 
  
 ----------------------------------- Process Pool --------------------------------------
+-> Process Name: firefox - Period: 6 - Priority: 2 
+ -> Process Name: discord - Period: 1 - Priority: 2 
+ -> Process Name: spotify - Period: 3 - Priority: 2 
+ ---------------------------------------------------------------------------------------
+
+Hello! It's me... spotify! 
+ 
+----------------------------------- Process Pool --------------------------------------
 -> Process Name: discord - Period: 1 - Priority: 2 
+ -> Process Name: firefox - Period: 6 - Priority: 2 
+ -> Process Name: spotify - Period: 2 - Priority: 2 
+ ---------------------------------------------------------------------------------------
+
+Hello! It's me... spotify! 
+ 
+----------------------------------- Process Pool --------------------------------------
+-> Process Name: firefox - Period: 6 - Priority: 2 
+ -> Process Name: discord - Period: 1 - Priority: 2 
+ -> Process Name: spotify - Period: 1 - Priority: 2 
+ ---------------------------------------------------------------------------------------
+
+Hello! It's me... spotify! 
+ 
+----------------------------------- Process Pool --------------------------------------
+-> Process Name: discord - Period: 1 - Priority: 2 
+ -> Process Name: firefox - Period: 6 - Priority: 2 
+ -> Process Name: spotify - Period: 0 - Priority: 2 
+ ---------------------------------------------------------------------------------------
+
+Hello! It's me... spotify! 
+ 
+----------------------------------- Process Pool --------------------------------------
+-> Process Name: firefox - Period: 6 - Priority: 2 
+ -> Process Name: discord - Period: 1 - Priority: 2 
  ---------------------------------------------------------------------------------------
 
 Hello! It's me... discord! 
  
 ----------------------------------- Process Pool --------------------------------------
--> Process Name: discord - Period: 0 - Priority: 2 
+-> Process Name: firefox - Period: 6 - Priority: 2 
+ -> Process Name: discord - Period: 0 - Priority: 2 
  ---------------------------------------------------------------------------------------
 
 Hello! It's me... discord! 
+ 
+----------------------------------- Process Pool --------------------------------------
+-> Process Name: firefox - Period: 6 - Priority: 2 
+ ---------------------------------------------------------------------------------------
+
+Hello! It's me... firefox! 
+ 
+----------------------------------- Process Pool --------------------------------------
+-> Process Name: firefox - Period: 5 - Priority: 2 
+ ---------------------------------------------------------------------------------------
+
+Hello! It's me... firefox! 
+ 
+----------------------------------- Process Pool --------------------------------------
+-> Process Name: firefox - Period: 4 - Priority: 2 
+ ---------------------------------------------------------------------------------------
+
+Hello! It's me... firefox! 
+ 
+----------------------------------- Process Pool --------------------------------------
+-> Process Name: firefox - Period: 3 - Priority: 2 
+ ---------------------------------------------------------------------------------------
+
+Hello! It's me... firefox! 
+ 
+----------------------------------- Process Pool --------------------------------------
+-> Process Name: firefox - Period: 2 - Priority: 2 
+ ---------------------------------------------------------------------------------------
+
+Hello! It's me... firefox! 
+ 
+----------------------------------- Process Pool --------------------------------------
+-> Process Name: firefox - Period: 1 - Priority: 2 
+ ---------------------------------------------------------------------------------------
+
+Hello! It's me... firefox! 
+ 
+----------------------------------- Process Pool --------------------------------------
+-> Process Name: firefox - Period: 0 - Priority: 2 
+ ---------------------------------------------------------------------------------------
+
+Hello! It's me... firefox! 
  
 
 
@@ -360,274 +340,65 @@ Hello! It's me... discord!
 
 ----------------------------------- Process Pool --------------------------------------
 -> Process Name: The Witcher 3 - Period: 1 - Priority: 3 
--> Process Name: opera - Period: 3 - Priority: 6 
--> Process Name: eclipse - Period: 4 - Priority: 6 
--> Process Name: Visual Studio Code - Period: 1 - Priority: 2 
--> Process Name: firefox - Period: 3 - Priority: 7 
--> Process Name: steam - Period: 2 - Priority: 8 
--> Process Name: spotify - Period: 3 - Priority: 8 
--> Process Name: discord - Period: 1 - Priority: 2 
--> Process Name: photoshop - Period: 2 - Priority: 6 
--> Process Name: illustrator - Period: 5 - Priority: 7 
----------------------------------------------------------------------------------------
-
-Queue = 0
----------------------------------Priority Queue--------------------------------
-Hello! It's me... steam! 
-
------------------------------------ Process Pool --------------------------------------
--> Process Name: steam - Period: 1 - Priority: 8 
--> Process Name: opera - Period: 3 - Priority: 6 
--> Process Name: eclipse - Period: 4 - Priority: 6 
--> Process Name: Visual Studio Code - Period: 1 - Priority: 2 
--> Process Name: firefox - Period: 3 - Priority: 7 
--> Process Name: The Witcher 3 - Period: 1 - Priority: 3 
--> Process Name: spotify - Period: 3 - Priority: 8 
--> Process Name: discord - Period: 1 - Priority: 2 
--> Process Name: photoshop - Period: 2 - Priority: 6 
--> Process Name: illustrator - Period: 5 - Priority: 7 
----------------------------------------------------------------------------------------
-
-Queue = 0
----------------------------------Priority Queue--------------------------------
-Hello! It's me... steam! 
-
-
-Ending process steam!
-
------------------------------------ Process Pool --------------------------------------
--> Process Name: opera - Period: 3 - Priority: 6 
--> Process Name: eclipse - Period: 4 - Priority: 6 
--> Process Name: Visual Studio Code - Period: 1 - Priority: 2 
--> Process Name: firefox - Period: 3 - Priority: 7 
--> Process Name: The Witcher 3 - Period: 1 - Priority: 3 
--> Process Name: spotify - Period: 3 - Priority: 8 
--> Process Name: discord - Period: 1 - Priority: 2 
--> Process Name: photoshop - Period: 2 - Priority: 6 
--> Process Name: illustrator - Period: 5 - Priority: 7 
----------------------------------------------------------------------------------------
-
-Queue = 0
----------------------------------Priority Queue--------------------------------
-Hello! It's me... spotify! 
-
------------------------------------ Process Pool --------------------------------------
--> Process Name: spotify - Period: 2 - Priority: 8 
--> Process Name: eclipse - Period: 4 - Priority: 6 
--> Process Name: Visual Studio Code - Period: 1 - Priority: 2 
--> Process Name: firefox - Period: 3 - Priority: 7 
--> Process Name: The Witcher 3 - Period: 1 - Priority: 3 
--> Process Name: opera - Period: 3 - Priority: 6 
--> Process Name: discord - Period: 1 - Priority: 2 
--> Process Name: photoshop - Period: 2 - Priority: 6 
--> Process Name: illustrator - Period: 5 - Priority: 7 
----------------------------------------------------------------------------------------
-
-Queue = 0
----------------------------------Priority Queue--------------------------------
-Hello! It's me... spotify! 
-
------------------------------------ Process Pool --------------------------------------
--> Process Name: spotify - Period: 1 - Priority: 8 
--> Process Name: eclipse - Period: 4 - Priority: 6 
--> Process Name: Visual Studio Code - Period: 1 - Priority: 2 
--> Process Name: firefox - Period: 3 - Priority: 7 
--> Process Name: The Witcher 3 - Period: 1 - Priority: 3 
--> Process Name: opera - Period: 3 - Priority: 6 
--> Process Name: discord - Period: 1 - Priority: 2 
--> Process Name: photoshop - Period: 2 - Priority: 6 
--> Process Name: illustrator - Period: 5 - Priority: 7 
----------------------------------------------------------------------------------------
-
-Queue = 0
----------------------------------Priority Queue--------------------------------
-Hello! It's me... spotify! 
-
-
-Ending process spotify!
-
------------------------------------ Process Pool --------------------------------------
--> Process Name: eclipse - Period: 4 - Priority: 6 
--> Process Name: Visual Studio Code - Period: 1 - Priority: 2 
--> Process Name: firefox - Period: 3 - Priority: 7 
--> Process Name: The Witcher 3 - Period: 1 - Priority: 3 
--> Process Name: opera - Period: 3 - Priority: 6 
--> Process Name: discord - Period: 1 - Priority: 2 
--> Process Name: photoshop - Period: 2 - Priority: 6 
--> Process Name: illustrator - Period: 5 - Priority: 7 
----------------------------------------------------------------------------------------
-
-Queue = 0
----------------------------------Priority Queue--------------------------------
-Hello! It's me... firefox! 
-
------------------------------------ Process Pool --------------------------------------
--> Process Name: firefox - Period: 2 - Priority: 7 
--> Process Name: Visual Studio Code - Period: 1 - Priority: 2 
--> Process Name: eclipse - Period: 4 - Priority: 6 
--> Process Name: The Witcher 3 - Period: 1 - Priority: 3 
--> Process Name: opera - Period: 3 - Priority: 6 
--> Process Name: discord - Period: 1 - Priority: 2 
--> Process Name: photoshop - Period: 2 - Priority: 6 
--> Process Name: illustrator - Period: 5 - Priority: 7 
----------------------------------------------------------------------------------------
-
-Queue = 0
----------------------------------Priority Queue--------------------------------
-Hello! It's me... firefox! 
-
------------------------------------ Process Pool --------------------------------------
--> Process Name: firefox - Period: 1 - Priority: 7 
--> Process Name: Visual Studio Code - Period: 1 - Priority: 2 
--> Process Name: eclipse - Period: 4 - Priority: 6 
--> Process Name: The Witcher 3 - Period: 1 - Priority: 3 
--> Process Name: opera - Period: 3 - Priority: 6 
--> Process Name: discord - Period: 1 - Priority: 2 
--> Process Name: photoshop - Period: 2 - Priority: 6 
--> Process Name: illustrator - Period: 5 - Priority: 7 
----------------------------------------------------------------------------------------
-
-Queue = 0
----------------------------------Priority Queue--------------------------------
-Hello! It's me... firefox! 
-
-
-Ending process firefox!
-
------------------------------------ Process Pool --------------------------------------
--> Process Name: Visual Studio Code - Period: 1 - Priority: 2 
--> Process Name: eclipse - Period: 4 - Priority: 6 
--> Process Name: The Witcher 3 - Period: 1 - Priority: 3 
--> Process Name: opera - Period: 3 - Priority: 6 
--> Process Name: discord - Period: 1 - Priority: 2 
--> Process Name: photoshop - Period: 2 - Priority: 6 
--> Process Name: illustrator - Period: 5 - Priority: 7 
----------------------------------------------------------------------------------------
-
-Queue = 0
----------------------------------Priority Queue--------------------------------
-Hello! It's me... illustrator! 
-
------------------------------------ Process Pool --------------------------------------
--> Process Name: illustrator - Period: 4 - Priority: 7 
--> Process Name: eclipse - Period: 4 - Priority: 6 
--> Process Name: The Witcher 3 - Period: 1 - Priority: 3 
--> Process Name: opera - Period: 3 - Priority: 6 
--> Process Name: discord - Period: 1 - Priority: 2 
--> Process Name: photoshop - Period: 2 - Priority: 6 
--> Process Name: Visual Studio Code - Period: 1 - Priority: 2 
----------------------------------------------------------------------------------------
-
-Queue = 0
----------------------------------Priority Queue--------------------------------
-Hello! It's me... illustrator! 
-
------------------------------------ Process Pool --------------------------------------
--> Process Name: illustrator - Period: 3 - Priority: 7 
--> Process Name: eclipse - Period: 4 - Priority: 6 
--> Process Name: The Witcher 3 - Period: 1 - Priority: 3 
--> Process Name: opera - Period: 3 - Priority: 6 
--> Process Name: discord - Period: 1 - Priority: 2 
--> Process Name: photoshop - Period: 2 - Priority: 6 
--> Process Name: Visual Studio Code - Period: 1 - Priority: 2 
----------------------------------------------------------------------------------------
-
-Queue = 0
----------------------------------Priority Queue--------------------------------
-Hello! It's me... illustrator! 
-
------------------------------------ Process Pool --------------------------------------
--> Process Name: illustrator - Period: 2 - Priority: 7 
--> Process Name: eclipse - Period: 4 - Priority: 6 
--> Process Name: The Witcher 3 - Period: 1 - Priority: 3 
--> Process Name: opera - Period: 3 - Priority: 6 
--> Process Name: discord - Period: 1 - Priority: 2 
--> Process Name: photoshop - Period: 2 - Priority: 6 
--> Process Name: Visual Studio Code - Period: 1 - Priority: 2 
----------------------------------------------------------------------------------------
-
-Queue = 0
----------------------------------Priority Queue--------------------------------
-Hello! It's me... illustrator! 
-
------------------------------------ Process Pool --------------------------------------
--> Process Name: illustrator - Period: 1 - Priority: 7 
--> Process Name: eclipse - Period: 4 - Priority: 6 
--> Process Name: The Witcher 3 - Period: 1 - Priority: 3 
--> Process Name: opera - Period: 3 - Priority: 6 
--> Process Name: discord - Period: 1 - Priority: 2 
--> Process Name: photoshop - Period: 2 - Priority: 6 
--> Process Name: Visual Studio Code - Period: 1 - Priority: 2 
----------------------------------------------------------------------------------------
-
-Queue = 0
----------------------------------Priority Queue--------------------------------
-Hello! It's me... illustrator! 
-
-
-Ending process illustrator!
-
------------------------------------ Process Pool --------------------------------------
--> Process Name: eclipse - Period: 4 - Priority: 6 
--> Process Name: The Witcher 3 - Period: 1 - Priority: 3 
--> Process Name: opera - Period: 3 - Priority: 6 
--> Process Name: discord - Period: 1 - Priority: 2 
--> Process Name: photoshop - Period: 2 - Priority: 6 
--> Process Name: Visual Studio Code - Period: 1 - Priority: 2 
----------------------------------------------------------------------------------------
-
-Queue = 0
----------------------------------Priority Queue--------------------------------
-Hello! It's me... eclipse! 
-
------------------------------------ Process Pool --------------------------------------
--> Process Name: eclipse - Period: 3 - Priority: 6 
--> Process Name: The Witcher 3 - Period: 1 - Priority: 3 
--> Process Name: opera - Period: 3 - Priority: 6 
--> Process Name: discord - Period: 1 - Priority: 2 
--> Process Name: photoshop - Period: 2 - Priority: 6 
--> Process Name: Visual Studio Code - Period: 1 - Priority: 2 
----------------------------------------------------------------------------------------
-
-Queue = 0
----------------------------------Priority Queue--------------------------------
-Hello! It's me... eclipse! 
-
------------------------------------ Process Pool --------------------------------------
--> Process Name: eclipse - Period: 2 - Priority: 6 
--> Process Name: The Witcher 3 - Period: 1 - Priority: 3 
--> Process Name: opera - Period: 3 - Priority: 6 
--> Process Name: discord - Period: 1 - Priority: 2 
--> Process Name: photoshop - Period: 2 - Priority: 6 
--> Process Name: Visual Studio Code - Period: 1 - Priority: 2 
----------------------------------------------------------------------------------------
-
-Queue = 0
----------------------------------Priority Queue--------------------------------
-Hello! It's me... eclipse! 
-
------------------------------------ Process Pool --------------------------------------
+-> Process Name: opera - Period: 6 - Priority: 6 
 -> Process Name: eclipse - Period: 1 - Priority: 6 
--> Process Name: The Witcher 3 - Period: 1 - Priority: 3 
--> Process Name: opera - Period: 3 - Priority: 6 
+-> Process Name: Visual Studio Code - Period: 1 - Priority: 2 
+-> Process Name: firefox - Period: 6 - Priority: 2 
+-> Process Name: steam - Period: 2 - Priority: 3 
+-> Process Name: spotify - Period: 3 - Priority: 2 
 -> Process Name: discord - Period: 1 - Priority: 2 
 -> Process Name: photoshop - Period: 2 - Priority: 6 
--> Process Name: Visual Studio Code - Period: 1 - Priority: 2 
+-> Process Name: illustrator - Period: 6 - Priority: 7 
 ---------------------------------------------------------------------------------------
 
 Queue = 0
 ---------------------------------Priority Queue--------------------------------
-Hello! It's me... eclipse! 
 
-
-Ending process eclipse!
+reallocated process
+Hello! It's me... opera! 
 
 ----------------------------------- Process Pool --------------------------------------
--> Process Name: The Witcher 3 - Period: 1 - Priority: 3 
--> Process Name: opera - Period: 3 - Priority: 6 
+-> Process Name: opera - Period: 5 - Priority: 6 
+-> Process Name: eclipse - Period: 1 - Priority: 6 
+-> Process Name: Visual Studio Code - Period: 1 - Priority: 2 
+-> Process Name: firefox - Period: 6 - Priority: 2 
+-> Process Name: steam - Period: 2 - Priority: 3 
+-> Process Name: spotify - Period: 3 - Priority: 2 
 -> Process Name: discord - Period: 1 - Priority: 2 
 -> Process Name: photoshop - Period: 2 - Priority: 6 
+-> Process Name: The Witcher 3 - Period: 1 - Priority: 3 
+---------------------------------------------------------------------------------------
+
+Queue = 0
+---------------------------------Priority Queue--------------------------------
+Hello! It's me... opera! 
+
+----------------------------------- Process Pool --------------------------------------
+-> Process Name: opera - Period: 4 - Priority: 6 
+-> Process Name: eclipse - Period: 1 - Priority: 6 
 -> Process Name: Visual Studio Code - Period: 1 - Priority: 2 
+-> Process Name: firefox - Period: 6 - Priority: 2 
+-> Process Name: steam - Period: 2 - Priority: 3 
+-> Process Name: spotify - Period: 3 - Priority: 2 
+-> Process Name: discord - Period: 1 - Priority: 2 
+-> Process Name: photoshop - Period: 2 - Priority: 6 
+-> Process Name: The Witcher 3 - Period: 1 - Priority: 3 
+---------------------------------------------------------------------------------------
+
+Queue = 0
+---------------------------------Priority Queue--------------------------------
+Hello! It's me... opera! 
+
+----------------------------------- Process Pool --------------------------------------
+-> Process Name: opera - Period: 3 - Priority: 6 
+-> Process Name: eclipse - Period: 1 - Priority: 6 
+-> Process Name: Visual Studio Code - Period: 1 - Priority: 2 
+-> Process Name: firefox - Period: 6 - Priority: 2 
+-> Process Name: steam - Period: 2 - Priority: 3 
+-> Process Name: spotify - Period: 3 - Priority: 2 
+-> Process Name: discord - Period: 1 - Priority: 2 
+-> Process Name: photoshop - Period: 2 - Priority: 6 
+-> Process Name: The Witcher 3 - Period: 1 - Priority: 3 
 ---------------------------------------------------------------------------------------
 
 Queue = 0
@@ -636,10 +407,14 @@ Hello! It's me... opera!
 
 ----------------------------------- Process Pool --------------------------------------
 -> Process Name: opera - Period: 2 - Priority: 6 
--> Process Name: The Witcher 3 - Period: 1 - Priority: 3 
+-> Process Name: eclipse - Period: 1 - Priority: 6 
+-> Process Name: Visual Studio Code - Period: 1 - Priority: 2 
+-> Process Name: firefox - Period: 6 - Priority: 2 
+-> Process Name: steam - Period: 2 - Priority: 3 
+-> Process Name: spotify - Period: 3 - Priority: 2 
 -> Process Name: discord - Period: 1 - Priority: 2 
 -> Process Name: photoshop - Period: 2 - Priority: 6 
--> Process Name: Visual Studio Code - Period: 1 - Priority: 2 
+-> Process Name: The Witcher 3 - Period: 1 - Priority: 3 
 ---------------------------------------------------------------------------------------
 
 Queue = 0
@@ -648,10 +423,14 @@ Hello! It's me... opera!
 
 ----------------------------------- Process Pool --------------------------------------
 -> Process Name: opera - Period: 1 - Priority: 6 
--> Process Name: The Witcher 3 - Period: 1 - Priority: 3 
+-> Process Name: eclipse - Period: 1 - Priority: 6 
+-> Process Name: Visual Studio Code - Period: 1 - Priority: 2 
+-> Process Name: firefox - Period: 6 - Priority: 2 
+-> Process Name: steam - Period: 2 - Priority: 3 
+-> Process Name: spotify - Period: 3 - Priority: 2 
 -> Process Name: discord - Period: 1 - Priority: 2 
 -> Process Name: photoshop - Period: 2 - Priority: 6 
--> Process Name: Visual Studio Code - Period: 1 - Priority: 2 
+-> Process Name: The Witcher 3 - Period: 1 - Priority: 3 
 ---------------------------------------------------------------------------------------
 
 Queue = 0
@@ -662,10 +441,31 @@ Hello! It's me... opera!
 Ending process opera!
 
 ----------------------------------- Process Pool --------------------------------------
--> Process Name: The Witcher 3 - Period: 1 - Priority: 3 
+-> Process Name: eclipse - Period: 1 - Priority: 6 
+-> Process Name: Visual Studio Code - Period: 1 - Priority: 2 
+-> Process Name: firefox - Period: 6 - Priority: 2 
+-> Process Name: steam - Period: 2 - Priority: 3 
+-> Process Name: spotify - Period: 3 - Priority: 2 
 -> Process Name: discord - Period: 1 - Priority: 2 
 -> Process Name: photoshop - Period: 2 - Priority: 6 
+-> Process Name: The Witcher 3 - Period: 1 - Priority: 3 
+---------------------------------------------------------------------------------------
+
+Queue = 0
+---------------------------------Priority Queue--------------------------------
+Hello! It's me... eclipse! 
+
+
+Ending process eclipse!
+
+----------------------------------- Process Pool --------------------------------------
 -> Process Name: Visual Studio Code - Period: 1 - Priority: 2 
+-> Process Name: firefox - Period: 6 - Priority: 2 
+-> Process Name: steam - Period: 2 - Priority: 3 
+-> Process Name: spotify - Period: 3 - Priority: 2 
+-> Process Name: discord - Period: 1 - Priority: 2 
+-> Process Name: photoshop - Period: 2 - Priority: 6 
+-> Process Name: The Witcher 3 - Period: 1 - Priority: 3 
 ---------------------------------------------------------------------------------------
 
 Queue = 0
@@ -674,9 +474,12 @@ Hello! It's me... photoshop!
 
 ----------------------------------- Process Pool --------------------------------------
 -> Process Name: photoshop - Period: 1 - Priority: 6 
+-> Process Name: firefox - Period: 6 - Priority: 2 
+-> Process Name: steam - Period: 2 - Priority: 3 
+-> Process Name: spotify - Period: 3 - Priority: 2 
 -> Process Name: discord - Period: 1 - Priority: 2 
--> Process Name: The Witcher 3 - Period: 1 - Priority: 3 
 -> Process Name: Visual Studio Code - Period: 1 - Priority: 2 
+-> Process Name: The Witcher 3 - Period: 1 - Priority: 3 
 ---------------------------------------------------------------------------------------
 
 Queue = 0
@@ -687,9 +490,40 @@ Hello! It's me... photoshop!
 Ending process photoshop!
 
 ----------------------------------- Process Pool --------------------------------------
+-> Process Name: firefox - Period: 6 - Priority: 2 
+-> Process Name: steam - Period: 2 - Priority: 3 
+-> Process Name: spotify - Period: 3 - Priority: 2 
 -> Process Name: discord - Period: 1 - Priority: 2 
--> Process Name: The Witcher 3 - Period: 1 - Priority: 3 
 -> Process Name: Visual Studio Code - Period: 1 - Priority: 2 
+-> Process Name: The Witcher 3 - Period: 1 - Priority: 3 
+---------------------------------------------------------------------------------------
+
+Queue = 0
+---------------------------------Priority Queue--------------------------------
+Hello! It's me... steam! 
+
+----------------------------------- Process Pool --------------------------------------
+-> Process Name: steam - Period: 1 - Priority: 3 
+-> Process Name: firefox - Period: 6 - Priority: 2 
+-> Process Name: spotify - Period: 3 - Priority: 2 
+-> Process Name: discord - Period: 1 - Priority: 2 
+-> Process Name: Visual Studio Code - Period: 1 - Priority: 2 
+-> Process Name: The Witcher 3 - Period: 1 - Priority: 3 
+---------------------------------------------------------------------------------------
+
+Queue = 0
+---------------------------------Priority Queue--------------------------------
+Hello! It's me... steam! 
+
+
+Ending process steam!
+
+----------------------------------- Process Pool --------------------------------------
+-> Process Name: firefox - Period: 6 - Priority: 2 
+-> Process Name: spotify - Period: 3 - Priority: 2 
+-> Process Name: discord - Period: 1 - Priority: 2 
+-> Process Name: Visual Studio Code - Period: 1 - Priority: 2 
+-> Process Name: The Witcher 3 - Period: 1 - Priority: 3 
 ---------------------------------------------------------------------------------------
 
 Queue = 0
@@ -700,8 +534,45 @@ Hello! It's me... The Witcher 3!
 Ending process The Witcher 3!
 
 ----------------------------------- Process Pool --------------------------------------
+-> Process Name: spotify - Period: 3 - Priority: 2 
 -> Process Name: discord - Period: 1 - Priority: 2 
 -> Process Name: Visual Studio Code - Period: 1 - Priority: 2 
+-> Process Name: firefox - Period: 6 - Priority: 2 
+---------------------------------------------------------------------------------------
+
+Queue = 0
+---------------------------------Priority Queue--------------------------------
+Hello! It's me... spotify! 
+
+----------------------------------- Process Pool --------------------------------------
+-> Process Name: spotify - Period: 2 - Priority: 2 
+-> Process Name: discord - Period: 1 - Priority: 2 
+-> Process Name: Visual Studio Code - Period: 1 - Priority: 2 
+-> Process Name: firefox - Period: 6 - Priority: 2 
+---------------------------------------------------------------------------------------
+
+Queue = 0
+---------------------------------Priority Queue--------------------------------
+Hello! It's me... spotify! 
+
+----------------------------------- Process Pool --------------------------------------
+-> Process Name: spotify - Period: 1 - Priority: 2 
+-> Process Name: discord - Period: 1 - Priority: 2 
+-> Process Name: Visual Studio Code - Period: 1 - Priority: 2 
+-> Process Name: firefox - Period: 6 - Priority: 2 
+---------------------------------------------------------------------------------------
+
+Queue = 0
+---------------------------------Priority Queue--------------------------------
+Hello! It's me... spotify! 
+
+
+Ending process spotify!
+
+----------------------------------- Process Pool --------------------------------------
+-> Process Name: discord - Period: 1 - Priority: 2 
+-> Process Name: Visual Studio Code - Period: 1 - Priority: 2 
+-> Process Name: firefox - Period: 6 - Priority: 2 
 ---------------------------------------------------------------------------------------
 
 Queue = 0
@@ -713,6 +584,7 @@ Ending process discord!
 
 ----------------------------------- Process Pool --------------------------------------
 -> Process Name: Visual Studio Code - Period: 1 - Priority: 2 
+-> Process Name: firefox - Period: 6 - Priority: 2 
 ---------------------------------------------------------------------------------------
 
 Queue = 0
@@ -721,6 +593,54 @@ Hello! It's me... Visual Studio Code!
 
 
 Ending process Visual Studio Code!
+
+----------------------------------- Process Pool --------------------------------------
+-> Process Name: firefox - Period: 6 - Priority: 2 
+---------------------------------------------------------------------------------------
+
+Queue = 0
+---------------------------------Priority Queue--------------------------------
+
+reallocated process
+Hello! It's me... (null)! 
+
+
+Ending process (null)!
+
+----------------------------------- Process Pool --------------------------------------
+-> Process Name: firefox - Period: 4 - Priority: 2 
+---------------------------------------------------------------------------------------
+
+Queue = 1
+---------------------------------EDF Queue--------------------------------
+Hello! It's me... firefox! 
+
+----------------------------------- Process Pool --------------------------------------
+-> Process Name: firefox - Period: 3 - Priority: 2 
+---------------------------------------------------------------------------------------
+
+Queue = 1
+---------------------------------EDF Queue--------------------------------
+Hello! It's me... firefox! 
+
+----------------------------------- Process Pool --------------------------------------
+-> Process Name: firefox - Period: 2 - Priority: 2 
+---------------------------------------------------------------------------------------
+
+Queue = 1
+---------------------------------EDF Queue--------------------------------
+Hello! It's me... firefox! 
+
+----------------------------------- Process Pool --------------------------------------
+-> Process Name: firefox - Period: 1 - Priority: 2 
+---------------------------------------------------------------------------------------
+
+Queue = 1
+---------------------------------EDF Queue--------------------------------
+Hello! It's me... firefox! 
+
+
+Ending process firefox!
 
 
 * * * * End of Program * * * *

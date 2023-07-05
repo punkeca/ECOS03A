@@ -1,10 +1,3 @@
-// Developers: Patricia B Ribeiro, Ronys W R Santana, Vivian L Fragoso
-// Subject: Embedded Operating Systems
-// Course: Computer Engineering
-// Department: Institute of Sytems Engineering and Informational Technology
-// University: Universidade Federal de Itajubá
-// Location: Itajubpa - MG - Brazil
-
 #include <iostream>
 #include <cstring>
 #include <vector>
@@ -291,6 +284,16 @@ int multiQueuesExec() {
         exit(0);
     }
     else {
+        if (buffer[current_queue][start_[current_queue]].period > 5 && current_queue == 0) {
+            //if the period is greater than 5, allocate it in queue 1 for slow processes
+                aloc = 1;
+                addMultiQueuesProc( buffer[current_queue][start_[current_queue]].processName, 
+                                    buffer[current_queue][start_[current_queue]].period,
+                                    buffer[current_queue][start_[current_queue]].priority,
+                                    buffer[current_queue][start_[current_queue]].func);
+                removeMultiQueuesProc();
+                fprintf(out,"\nreallocated process\n");
+        }
         if (start_[current_queue] != end_[current_queue]) {                   //if the queue is not empty
             buffer[current_queue][start_[current_queue]].func();              //execute the function
 
@@ -325,16 +328,7 @@ int multiQueuesExec() {
             }
 
         }
-        if (buffer[current_queue][start_[current_queue]].period > 5 && current_queue == 0) {
-            //if the period is greater than 5, allocate it in queue 1 for slow processes
-                aloc = 1;
-                addMultiQueuesProc( buffer[current_queue][start_[current_queue]].processName, 
-                                    buffer[current_queue][start_[current_queue]].period,
-                                    buffer[current_queue][start_[current_queue]].priority,
-                                    buffer[current_queue][start_[current_queue]].func);
-                removeMultiQueuesProc();
-                fprintf(out,"\nreallocated process\n");
-            }
+        
     }
         
     return 0;
@@ -351,8 +345,8 @@ int multiQueuesKernelInit() {
     in = fopen("input.txt", "r");
 
     while(fscanf(in, "%d %d %d", &date, &dur, &pri) != EOF){
-        addMultiQueuesProc(itens[i++], dur, pri, multiQueuesHello);  
-
+        addMultiQueuesProc(itens[i], dur, pri, multiQueuesHello);  
+        i++;
     }
 
     fclose(in);
@@ -394,7 +388,7 @@ int main() {
     fprintf(out, "* * * Welcome to the Operating Systems Scheduling Simulator! * * *\n\n");
     fprintf(out, "----> Test your Scheduler:\n");
     fprintf(out, "  1- PriorityScheduler       vs        2- Multi-queues Scheduler\n");
-    //fprintf(out, "  User choice: ");
+    fprintf(out, "  User choice: ");
 
     fprintf(out, "\n\n\n");
     fprintf(out, "* * * Running cooperative priority based scheduler: * * *\n\n");
