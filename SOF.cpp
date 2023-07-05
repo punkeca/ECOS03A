@@ -3,7 +3,7 @@
 // Course: Computer Engineering
 // Department: Institute of Sytems Engineering and Informational Technology
 // University: Universidade Federal de Itajubá
-// Location: Itajubpa - MG - Brazil
+// Location: Itajubá - MG - Brazil
 #include <iostream>
 #include <cstring>
 #include <vector>
